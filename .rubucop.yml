@@ -1,0 +1,22 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+
+  RunRailsCops: true
+
+Style/BlockNesting:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  MaxLineLength: 100
+
+Style/LineLength:
+  Max: 100
+
+Style/StringLiterals:
+  Enabled: false
