@@ -9,14 +9,54 @@ AllCops:
 
   RunRailsCops: true
 
+Style/AlignHash:
+  EnforcedLastArgumentHashStyle: ignore_implicit
+
 Style/BlockNesting:
   Enabled: false
 
+Style/CaseIndentation:
+  IndentOneStep: true
+
+Style/Encoding:
+  EnforcedStyle: when_needed
+
+Style/FormatString:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
 Style/IfUnlessModifier:
-  MaxLineLength: 100
+  MaxLineLength: 120
+
+Style/IndentHash:
+  EnforcedStyle: consistent
+
+Style/LambdaCall:
+  EnforcedStyle: call
 
 Style/LineLength:
-  Max: 100
+  Max: 120
+
+Style/NonNilCheck:
+  IncludeSemanticChanges: true
+
+Style/MethodLength:
+  Enabled: false
+
+Style/PredicateName:
+  NamePrefixBlacklist:
+    - is_
+
+Style/RedundantReturn:
+  AllowMultipleReturnValues: true
+
+Style/SingleLineBlockParams:
+  Enabled: false
 
 Style/StringLiterals:
-  Enabled: false
+  EnforcedStyle: double_quotes
+
+Style/WhileUntilModifier:
+  MaxLineLength: 120
