@@ -1,14 +1,3 @@
-AllCops:
-  Include:
-    - '**/Rakefile'
-    - '**/config.ru'
-  Exclude:
-    - 'db/**/*'
-    - 'config/**/*'
-    - 'script/**/*'
-
-  RunRailsCops: true
-
 Style/AlignHash:
   EnforcedLastArgumentHashStyle: ignore_implicit
 
@@ -17,6 +6,9 @@ Style/BlockNesting:
 
 Style/CaseIndentation:
   IndentOneStep: true
+
+Style/Documentation:
+  Enabled: false
 
 Style/Encoding:
   EnforcedStyle: when_needed
