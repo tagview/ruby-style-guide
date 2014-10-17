@@ -18,6 +18,9 @@ Style/BlockNesting:
 Style/CaseIndentation:
   IndentOneStep: true
 
+Style/ClassAndModuleChildren:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
 
