@@ -63,6 +63,9 @@ Style/SingleLineBlockParams:
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
+  
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
 
 Style/WhileUntilModifier:
   MaxLineLength: 120
