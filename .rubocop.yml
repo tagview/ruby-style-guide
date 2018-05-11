@@ -9,13 +9,13 @@ AllCops:
     - "vendor/**/*"
     - "db/schema.rb"
 
-Style/AlignHash:
+Layout/AlignHash:
   EnforcedLastArgumentHashStyle: ignore_implicit
 
-Style/BlockNesting:
+Metrics/BlockNesting:
   Enabled: false
 
-Style/CaseIndentation:
+Layout/CaseIndentation:
   IndentOneStep: true
 
 Style/ClassAndModuleChildren:
@@ -24,34 +24,28 @@ Style/ClassAndModuleChildren:
 Style/Documentation:
   Enabled: false
 
-Style/Encoding:
-  EnforcedStyle: when_needed
-
 Style/FormatString:
   Enabled: false
 
 Style/GuardClause:
   Enabled: false
 
-Style/IfUnlessModifier:
-  MaxLineLength: 120
-
-Style/IndentHash:
+Layout/IndentHash:
   EnforcedStyle: consistent
 
 Style/LambdaCall:
   EnforcedStyle: call
 
-Style/LineLength:
+Metrics/LineLength:
   Max: 120
 
 Style/NonNilCheck:
   IncludeSemanticChanges: true
 
-Style/MethodLength:
+Metrics/MethodLength:
   Enabled: false
 
-Style/PredicateName:
+Naming/PredicateName:
   NamePrefixBlacklist:
     - is_
 
@@ -66,6 +60,3 @@ Style/StringLiterals:
   
 Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
-
-Style/WhileUntilModifier:
-  MaxLineLength: 120
